@@ -8,14 +8,14 @@
 
 <body>
     <header class="header">
-        <img src="./eisenhower-matrix.jpg" alt="principles of TODO list">
+        <img class="img" src="./eisenhower-matrix.jpg" alt="principles of TODO list">
         <a class="more-info" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
     </header>
     <section class="main-element">
         <div id="add-list">
             <label class="new-task">Add Item</label>
             <div class="task-wrap">
-                <input id="new-task" class="task" type="text">
+                <input id="new-task" class="task add" type="text">
                 <button>Add</button>
             </div>
         </div>
@@ -33,7 +33,7 @@
             <li class="edit-mode">
                 <input type="checkbox" class="checkbox">
                 <label class="task">Go Shopping</label>
-                <input type="text" value="Go Shopping" class="task">
+                <input type="text" value="Go Shopping" class="task edit">
                 <button class="edit">Save</button>
                 <button class="delete">
                     <img src="./remove.svg" alt="icon">
@@ -44,7 +44,7 @@
         <ul id="complete-tasks">
             <li>
                 <input type="checkbox" class="checkbox" checked>
-                <label class="task">See the Doctor</label>
+                <label class="task complete">See the Doctor</label>
                 <input type="text" class="task">
                 <button class="edit">Edit</button>
                 <button class="delete">
